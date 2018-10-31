@@ -1,0 +1,192 @@
+html, body, {
+            
+            height: 100%;
+            font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+        } 
+        .cover {
+            height:100%;
+            width: 100%;
+            background: url("https://res.cloudinary.com/paulofili/image/upload/v1523643456/paulofili.jpg") top left no-repeat;
+            background-size: cover;
+            display: table;
+            font-size: 60px;    
+            font-weight: 500px; 
+            color: white;
+            padding: 30px 50px 10px;
+        }    
+        #name {            
+            font-size: 30px;
+            font-weight: 100px; 
+        }
+        .cover #cover-head {
+            margin:100px 0 0px;
+            font-size: 50px;
+            text-align: center;             
+        }
+        .cover h1 {
+            font-size: 60px;            
+        }
+         #time {
+            font-size: 18px;
+            position: relative;           
+        }
+        .contain {
+            padding: 30px 120px;
+            background-color:#fff;
+        }  
+        .contain h3 {
+            position: relative;
+            left: 37px;
+            top: 0px;
+            font-size: 30px;
+        }
+        #bio {
+            font-size: 20px;
+            border-left: solid 1px #ccc;
+            padding-left: 40px;
+            padding: 0 0 100px 40px;
+        }
+        #socialmedia{
+           float: right;
+           font-size:22px;
+           letter-spacing:15px;
+        }
+        #foot {
+            padding-left:20px;
+            background: #2c3539;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        } 
+        #foot span{
+            position: relative;
+            left:60px;
+        }   
+
+        #chatbody{
+            
+            background-size: cover;
+            font-family:tahoma, sans-serif;
+            box-sizing:border-box;
+            margin: 30px 0;
+            padding: 30px 0 20px;
+        }
+        
+        #chatbody h1 {
+            color: #666;
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+        .chatbox {
+            width: 500px;
+            min-width: 390px;
+            height: 600px;
+            background: #fff;
+            padding: 25px;
+            margin: 20px auto;
+            box-shadow: 0 3px auto;
+        } 
+
+        .chatlogs{
+            padding: 10px;
+            width: 100%;
+            height: 450px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            
+        }
+
+        .chatlogs::-webkit-scrollbar{
+            width: 10px;
+        }
+
+        .chatlogs::-webkit-scrollbar-thumb{
+            border-radius: 5px;
+            background: rgba(0,0,0,.1);
+        }
+
+        .chat {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .self .user-photo {
+            width: 60px;
+            height: 60px;
+            background: #ccc;
+            border-radius: 50%;
+        }
+
+        .bot .user-photo {
+            width: 70px;
+            height: 60px;
+            background: url("https://res.cloudinary.com/paulofili/image/upload/v1526257328/chatbot4.png");
+            overflow:hidden;
+        }
+
+        .chat .chat-message {
+            width: 78%;
+            padding: 15px;
+            margin: 0px 10px 0;            
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .bot .chat-message {
+            background: #1adda4;
+            border-radius: 0px 20px 20px 20px;
+        }
+
+        .self .chat-message {
+            background: #1ddced;
+            border-radius: 20px 0 20px 20px;
+            order: -1;
+        }
+
+        .chatform {
+            margin-top: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .chatform input {
+            background: #fbfbfb;
+            width: 75%;
+            height: 50px;
+            border: 2px solid #eee;
+            border-radius: 8px 0 0 8px;
+            padding: 5px 10px;
+            color: #666;
+            outline: none;
+        }
+
+        .chatform textarea:focus {
+            background: #fff;
+        }
+
+        .chatform textarea::-webkit-scrollbar{
+            width: 10px;
+        }
+
+        .chatform textarea::-webkit-scrollbar-thumb{
+            border-radius: 5px;
+            background: rgba(0,0,0,.1);
+        }
+        .chatform #send {
+            background: #1ddced;
+            padding: 5px 15px;
+            font-size: 20px;
+            color:#fff;
+            border: none;
+            height: 50px;
+            outline: none;
+            border-radius: 0px 8px 8px 0 ;
+        }
+
+        .chatform #send:active {
+            background: #13c8d9;   
+            outline: none; 
+        }  
